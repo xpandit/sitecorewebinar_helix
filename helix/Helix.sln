@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{557DD7A8-6D33-4FDB-AFF9-B11E0DC5D020}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{37F5B833-ED9E-496C-BA1D-EECD908E29C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{C55CAABF-9FCA-4E66-B30F-FCD3EB6BB942}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fun", "Fun", "{BB51635D-68BA-46D0-B499-9B9CDD4163AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helix", "Helix", "{D088B4AF-F629-4171-93B1-4C94678C539C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Feature.Fun", "src\Feature\Fun\code\Helix.Feature.Fun.csproj", "{AA1B5BFF-DDEE-4D3C-B537-41D2EFEC1301}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{73C7F19E-7ADC-455D-BBB1-2EA7B9260077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Project.Common", "src\Project\Common\code\Helix.Project.Common.csproj", "{C1023AB5-FE25-49F1-8B60-ABD78EF6C98B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrap", "Bootstrap", "{5FDAF6CD-DD39-42F5-AAB1-E5FE6F8B4B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix.Foundation.Bootstrap", "src\Foundation\Bootstrap\code\Helix.Foundation.Bootstrap.csproj", "{3D386288-8CDC-4281-9DDE-E153E857EC71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA1B5BFF-DDEE-4D3C-B537-41D2EFEC1301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1B5BFF-DDEE-4D3C-B537-41D2EFEC1301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1B5BFF-DDEE-4D3C-B537-41D2EFEC1301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1B5BFF-DDEE-4D3C-B537-41D2EFEC1301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1023AB5-FE25-49F1-8B60-ABD78EF6C98B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1023AB5-FE25-49F1-8B60-ABD78EF6C98B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1023AB5-FE25-49F1-8B60-ABD78EF6C98B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1023AB5-FE25-49F1-8B60-ABD78EF6C98B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D386288-8CDC-4281-9DDE-E153E857EC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D386288-8CDC-4281-9DDE-E153E857EC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D386288-8CDC-4281-9DDE-E153E857EC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D386288-8CDC-4281-9DDE-E153E857EC71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB51635D-68BA-46D0-B499-9B9CDD4163AC} = {557DD7A8-6D33-4FDB-AFF9-B11E0DC5D020}
+		{D088B4AF-F629-4171-93B1-4C94678C539C} = {C55CAABF-9FCA-4E66-B30F-FCD3EB6BB942}
+		{AA1B5BFF-DDEE-4D3C-B537-41D2EFEC1301} = {BB51635D-68BA-46D0-B499-9B9CDD4163AC}
+		{73C7F19E-7ADC-455D-BBB1-2EA7B9260077} = {C55CAABF-9FCA-4E66-B30F-FCD3EB6BB942}
+		{C1023AB5-FE25-49F1-8B60-ABD78EF6C98B} = {73C7F19E-7ADC-455D-BBB1-2EA7B9260077}
+		{5FDAF6CD-DD39-42F5-AAB1-E5FE6F8B4B32} = {37F5B833-ED9E-496C-BA1D-EECD908E29C6}
+		{3D386288-8CDC-4281-9DDE-E153E857EC71} = {5FDAF6CD-DD39-42F5-AAB1-E5FE6F8B4B32}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19B52878-7951-490A-B15F-9419CD497372}
+	EndGlobalSection
+EndGlobal

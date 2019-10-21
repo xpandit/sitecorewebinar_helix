@@ -1,0 +1,8 @@
+*.dll
+*.pdb
+*.cache
+*.xml
+obj/**
+bin/**
+runtimes/**
+packages/**
