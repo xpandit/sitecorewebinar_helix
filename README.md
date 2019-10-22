@@ -4,6 +4,9 @@
 
 [HELIX SITECORE](https://helix.sitecore.net/)
 
+## Create Helix structure using Sitecore Helix Visual Studio Template
+[SITECORE HELIX VISUAL STUDIO TEMPLATE](https://marketplace.visualstudio.com/items?itemName=AndersLaublaubplusco.SitecoreHelixVisualStudioTemplates)
+
 ## Create Helix structure using Yeoman Helix Generator 
 [PENTIALABS HELIX GENERATOR](https://github.com/PentiaLabs/generator-helix)
 [NPM GENERATOR HELIX](https://www.npmjs.com/package/generator-helix)
